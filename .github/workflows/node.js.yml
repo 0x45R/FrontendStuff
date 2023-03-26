@@ -35,6 +35,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: coffeeshop/dist
-        working-directory: coffeeshop
+        destination_dir: coffeeshop
 permissions:
   contents: write
