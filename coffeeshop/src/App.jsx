@@ -50,7 +50,7 @@ class App extends Component {
                 Visit us!
               </a>
             </div>
-            <img className="h-1/2 object-contain" src="/coffeecup.webp"/>
+            <img className="h-1/2 object-contain" src="coffeecup.webp"/>
           </Card>
           <Card className="flex-col" id="location" below="#screenshots" above="#">
             <p className="text-4xl font-bold">Where are we?</p>
@@ -62,10 +62,10 @@ class App extends Component {
             <p className="max-w-2xl">Browse through our gallery of screenshots and get a sneak peek of our cozy, inviting space.</p>
             <Carousel className="max-w-2xl rounded-2xl" showArrows={true} showStatus={false} showThumbs={false}>
                 <div>
-                  <img src="/firstphoto.webp"/>
+                  <img src="firstphoto.webp"/>
                 </div>
                 <div>
-                  <img src="/firstphoto.webp" />
+                  <img src="firstphoto.webp" />
                 </div>
             </Carousel>
           </Card>
